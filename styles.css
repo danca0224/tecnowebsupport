@@ -370,6 +370,46 @@
     text-align: left;
     margin: 0;
   }
+  
+/* Franja de confianza */
+  .trust-bar {
+    background-color: #eaf2fb;
+    padding: 22px 0;
+  }
+  
+  .trust-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    text-align: center;
+  }
+
+  .trust-item {
+    font-weight: 600;
+    color: #0f172a;
+    font-size: 0.98rem;
+  }
+  
+/* Llamado a la acción final */
+  .cta-final {
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: #ffffff;
+    text-align: center;
+    padding: 70px 20px;
+  }
+  
+  .cta-final h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .cta-final p {
+    max-width: 700px;
+    margin: 0 auto 25px auto;
+    color: #e2e8f0;
+    font-size: 1.05rem;
+  }
 
   /* Responsive */
   @media (max-width: 768px) {
@@ -380,6 +420,10 @@
   
     .nav a {
       margin: 0 10px;
+    }
+
+    .cta-final h2 {
+      font-size: 1.6rem;
     }
   
     .hero-content h1 {
@@ -400,6 +444,10 @@
 
     .highlight-grid {
         grid-template-columns: 1fr;
+    }
+
+    .trust-items {
+      grid-template-columns: 1fr;
     }
 
     .logo {
