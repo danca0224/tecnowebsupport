@@ -26,6 +26,7 @@
   --shadow-soft: 0 6px 18px rgba(0, 0, 0, 0.08);
   --shadow-hover: 0 10px 25px rgba(0, 0, 0, 0.12);
   --transition-fast: 0.2s ease;
+  --hero-image: url("https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1600&q=80");
 }
 
   html {
@@ -34,7 +35,7 @@
   
   /* Estilo general del body */
   body {
-    font-family: 'Inter', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     line-height: 1.6;
     background-color: var(--color-page);
     color: var(--color-ink);
@@ -116,7 +117,7 @@
   .hero {
     background:
       linear-gradient(135deg, rgba(15, 23, 42, 0.92), rgba(30, 58, 138, 0.88)),
-      url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1600&q=80');
+      var(--hero-image);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -657,4 +658,56 @@
       scroll-behavior: auto !important;
       transition-duration: 0.01ms !important;
     }
+  }
+
+
+  .error-page {
+    min-height: 100vh;
+    background:
+      radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 34rem),
+      linear-gradient(135deg, var(--color-heading), var(--color-brand));
+  }
+
+  .error-main {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    padding: 40px 20px;
+  }
+
+  .error-card {
+    color: var(--color-surface);
+    margin: 0 auto;
+    max-width: 680px;
+    text-align: center;
+  }
+
+  .error-code {
+    color: var(--color-accent);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    margin-bottom: 12px;
+  }
+
+  .error-card h1 {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    line-height: 1.1;
+    margin-bottom: 18px;
+  }
+
+  .error-card p {
+    color: var(--color-light-text);
+    font-size: 1.05rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 560px;
+  }
+
+  .error-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+    margin-top: 28px;
   }
