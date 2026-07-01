@@ -1070,3 +1070,35 @@
     justify-content: center;
     margin-top: 28px;
   }
+
+/* Ajuste ancho contacto 20260701 */
+.contact-box {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-details {
+  grid-template-columns: 1.25fr 1fr 1fr;
+}
+
+.contact-item {
+  min-width: 0;
+}
+
+.contact-link {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+@media (max-width: 1024px) {
+  .contact-details {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-details {
+    grid-template-columns: 1fr;
+  }
+}
