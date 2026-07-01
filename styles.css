@@ -265,6 +265,103 @@
     margin-bottom: 8px;
   }
   
+
+
+  .process-grid,
+  .deliverables-grid,
+  .faq-list {
+    display: grid;
+    gap: 22px;
+    margin-top: 40px;
+  }
+
+  .process-grid,
+  .deliverables-grid {
+    list-style: none;
+    padding: 0;
+  }
+
+  .process-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .deliverables-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .faq-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process-step,
+  .deliverable-item,
+  .faq-item,
+  .assurance-block,
+  .security-note {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border-soft);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-soft);
+    padding: 24px;
+  }
+
+  .process-step {
+    position: relative;
+  }
+
+  .step-number {
+    align-items: center;
+    background: linear-gradient(135deg, var(--color-action), var(--color-brand));
+    border-radius: 999px;
+    color: var(--color-surface);
+    display: inline-flex;
+    font-weight: 700;
+    height: 36px;
+    justify-content: center;
+    margin-bottom: 16px;
+    width: 36px;
+  }
+
+  .process-step h3,
+  .faq-item h3,
+  .security-note h3 {
+    color: var(--color-brand);
+    margin-bottom: 10px;
+  }
+
+  .process-step p,
+  .faq-item p,
+  .security-note p,
+  .assurance-block p {
+    color: var(--color-text);
+    margin: 0;
+    max-width: none;
+    text-align: left;
+  }
+
+  .security-note {
+    border-left: 4px solid var(--color-brand);
+    margin-top: 30px;
+  }
+
+  .deliverable-item {
+    color: var(--color-text);
+    font-weight: 500;
+  }
+
+  .assurance-block {
+    background: linear-gradient(135deg, var(--color-surface), var(--color-panel));
+    border-left: 4px solid var(--color-accent);
+    margin: 0 auto;
+    max-width: 920px;
+  }
+
+  .assurance-block h2 {
+    color: var(--color-heading);
+    margin-bottom: 16px;
+    text-align: left;
+  }
+
   /* Contacto */
   .contact-box {
     background: linear-gradient(135deg, var(--color-surface), var(--color-panel));
@@ -529,7 +626,10 @@
   @media (max-width: 1024px) {
     .highlight-grid,
     .audience-grid,
-    .contact-details {
+    .contact-details,
+    .process-grid,
+    .deliverables-grid,
+    .faq-list {
       grid-template-columns: repeat(2, 1fr);
     }
   }
@@ -569,7 +669,10 @@
       font-size: 1rem;
     }
   
-    .services-grid {
+    .services-grid,
+    .process-grid,
+    .deliverables-grid,
+    .faq-list {
       grid-template-columns: 1fr;
     }
   
