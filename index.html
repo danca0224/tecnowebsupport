@@ -28,7 +28,7 @@
             <span class="logo-sub">Soporte TI & Ciberseguridad</span>
         </div>
 
-      <nav class="nav">
+      <nav class="nav" aria-label="Navegación principal">
         <a href="#inicio">Inicio</a>
         <a href="#nosotros">Nosotros</a>
         <a href="#servicios">Servicios</a>
@@ -48,7 +48,15 @@
       </p>
 
       <div class="hero-buttons">
-        <a href="#contacto" class="btn btn-primary">Solicitar asesoría</a>
+        <a
+          href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20TecnoWebSupport."
+          class="btn btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Solicitar asesoría a TecnoWebSupport por WhatsApp"
+        >
+          Solicitar asesoría
+        </a>
         <a href="#servicios" class="btn btn-secondary">Ver servicios</a>
       </div>
     </div>
@@ -57,9 +65,9 @@
   <!-- Franja de confianza -->
    <section class="trust-bar">
     <div class="container trust-items">
-      <div class="trust-item">✔️ Experiencia en soporte TI y ciberseguridad</div>
-      <div class="trust-item">✔️ Enfoque basado en buenas prácticas</div>
-      <div class="trust-item">✔️ Soluciones para empresas y emprendedores</div>
+      <div class="trust-item"><span aria-hidden="true">✔️</span> Experiencia en soporte TI y ciberseguridad</div>
+      <div class="trust-item"><span aria-hidden="true">✔️</span> Enfoque basado en buenas prácticas</div>
+      <div class="trust-item"><span aria-hidden="true">✔️</span> Soluciones para empresas y emprendedores</div>
     </div>
   </section>
 
@@ -75,7 +83,7 @@
       <div class="highlight-grid">
 
         <div class="highlight-card">
-          <h3>🔧 Mantenimiento Preventivo</h3>
+          <h3><span aria-hidden="true">🔧</span> Mantenimiento Preventivo</h3>
           <p>
             Reducimos fallas y mejoramos el rendimiento de tus equipos mediante
             revisiones preventivas orientadas a la continuidad operativa.
@@ -83,7 +91,7 @@
         </div>
 
         <div class="highlight-card">
-          <h3>💻 Soporte Técnico Remoto</h3>
+          <h3><span aria-hidden="true">💻</span> Soporte Técnico Remoto</h3>
           <p>
             Atendemos incidentes técnicos de forma ágil para minimizar interrupciones
             y recuperar la operación en el menor tiempo posible.
@@ -91,7 +99,7 @@
         </div>
 
         <div class="highlight-card">
-          <h3>🌐 Configuración Web y Dominios</h3>
+          <h3><span aria-hidden="true">🌐</span> Configuración Web y Dominios</h3>
           <p>
             Configuramos sitios web, dominios y correos corporativos para fortalecer
             tu presencia digital y mejorar la disponibilidad de tus servicios.
@@ -99,7 +107,7 @@
         </div>
 
         <div class="highlight-card">
-          <h3>🔐 Diagnóstico de Seguridad</h3>
+          <h3><span aria-hidden="true">🔐</span> Diagnóstico de Seguridad</h3>
           <p>
             Identificamos vulnerabilidades y riesgos en tu infraestructura antes de
             que puedan convertirse en incidentes de seguridad.
@@ -107,7 +115,7 @@
         </div>
 
         <div class="highlight-card">
-          <h3>🛡️ Ethical Hacking Básico</h3>
+          <h3><span aria-hidden="true">🛡️</span> Ethical Hacking Básico</h3>
           <p>
             Realizamos pruebas controladas para detectar debilidades técnicas y
             fortalecer la seguridad de tus aplicaciones y servicios expuestos.
@@ -115,7 +123,7 @@
         </div>
 
         <div class="highlight-card">
-          <h3>📊 Informe Técnico</h3>
+          <h3><span aria-hidden="true">📊</span> Informe Técnico</h3>
           <p>
             Entregamos hallazgos claros y recomendaciones accionables para que
             puedas tomar decisiones técnicas con mayor confianza.
@@ -152,7 +160,7 @@
       <div class="services-grid">
 
         <div class="card">
-          <h3>💻 Soporte TI</h3>
+          <h3><span aria-hidden="true">💻</span> Soporte TI</h3>
           <p>
             Servicios orientados a la atención técnica, mantenimiento y solución
             de incidentes en equipos, sistemas y componentes tecnológicos.
@@ -168,7 +176,7 @@
         </div>
 
         <div class="card">
-          <h3>🌐 Soluciones Tecnológicas</h3>
+          <h3><span aria-hidden="true">🌐</span> Soluciones Tecnológicas</h3>
           <p>
             Acompañamiento en la implementación, configuración y mejora de
             herramientas y servicios tecnológicos.
@@ -184,7 +192,7 @@
         </div>
 
         <div class="card">
-          <h3>🔐 Ciberseguridad</h3>
+          <h3><span aria-hidden="true">🔐</span> Ciberseguridad</h3>
           <p>
             Servicios enfocados en la identificación de riesgos y en la mejora de
             la postura de seguridad de entornos tecnológicos.
@@ -200,7 +208,7 @@
         </div>
 
         <div class="card">
-          <h3>🛡️ Ethical Hacking</h3>
+          <h3><span aria-hidden="true">🛡️</span> Ethical Hacking</h3>
           <p>
             Pruebas de seguridad autorizadas y controladas para identificar
             debilidades técnicas antes de que sean aprovechadas por un atacante real.
@@ -322,19 +330,58 @@
   
         <div class="contact-details">
           <div class="contact-item">
-            <span class="contact-label">📧 Correo</span>
-            <span class="contact-value">Próximamente disponible</span>
+            <span class="contact-label">Correo</span>
+            <a
+              class="contact-value contact-link"
+              href="mailto:tecnowebsupport@gmail.com"
+              aria-label="Enviar correo a TecnoWebSupport"
+            >
+              tecnowebsupport@gmail.com
+            </a>
           </div>
   
           <div class="contact-item">
-            <span class="contact-label">💬 WhatsApp</span>
-            <span class="contact-value">Próximamente disponible</span>
+            <span class="contact-label">Teléfono</span>
+            <a
+              class="contact-value contact-link"
+              href="tel:+573158793376"
+              aria-label="Llamar a TecnoWebSupport"
+            >
+              +57 315 879 3376
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label">WhatsApp</span>
+            <a
+              class="contact-value contact-link"
+              href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20TecnoWebSupport."
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Contactar a TecnoWebSupport por WhatsApp"
+            >
+              +57 315 879 3376
+            </a>
           </div>
         </div>
   
         <div class="contact-actions">
-          <a href="#contacto" class="btn btn-primary">Solicitar diagnóstico</a>
-          <a href="https://wa.me/573158793376" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20TecnoWebSupport."
+            class="btn btn-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Solicitar diagnóstico a TecnoWebSupport por WhatsApp"
+          >
+            Solicitar diagnóstico
+          </a>
+          <a
+            href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20TecnoWebSupport."
+            class="btn btn-secondary"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Escribir a TecnoWebSupport por WhatsApp"
+          >
             Escribir por WhatsApp
           </a>
         </div>
@@ -344,13 +391,13 @@
   
   <!-- Botón flotante de WhatsApp -->
     <a
-    href="https://wa.me/573158793376"
+    href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20TecnoWebSupport."
     class="whatsapp-float"
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="Contactar por WhatsApp"
+    aria-label="Contactar a TecnoWebSupport por WhatsApp"
   >
-    💬 Contáctanos
+    <span aria-hidden="true">💬</span> Contáctanos
   </a>
   
   <!-- Llamado a la acción final -->
@@ -360,7 +407,15 @@
       <p>
         Contáctanos y recibe orientación inicial para fortalecer tu entorno tecnológico.
       </p>
-      <a href="#contacto" class="btn btn-primary">Solicitar diagnóstico</a>
+      <a
+        href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20TecnoWebSupport."
+        class="btn btn-primary"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Solicitar diagnóstico a TecnoWebSupport por WhatsApp"
+      >
+        Solicitar diagnóstico
+      </a>
     </div>
   </section>
 
@@ -370,7 +425,5 @@
       <p>TecnoWebSupport © 2026 | Soporte TI | Tecnología | Ciberseguridad | Ethical Hacking</p>
     </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
