@@ -20,10 +20,13 @@
   <!-- Encabezado -->
   <header class="header">
     <div class="container nav-container">
-        <div class="logo">
-            <span class="logo-main">TecnoWebSupport</span>
-            <span class="logo-sub">Soporte TI & Ciberseguridad</span>
-        </div>
+      <a class="logo" href="#inicio" aria-label="Ir al inicio de TecnoWebSupport">
+        <span class="logo-mark" aria-hidden="true">TW</span>
+        <span class="logo-copy">
+          <span class="logo-main">TecnoWebSupport</span>
+          <span class="logo-sub">Soporte TI & Ciberseguridad</span>
+        </span>
+      </a>
 
       <nav class="nav" aria-label="Navegación principal">
         <a href="#inicio">Inicio</a>
@@ -32,40 +35,68 @@
         <a href="#faq">Preguntas frecuentes</a>
         <a href="#contacto">Contacto</a>
       </nav>
+
+      <a
+        class="header-cta"
+        href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20TecnoWebSupport."
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contactar a TecnoWebSupport por WhatsApp"
+      >
+        WhatsApp
+      </a>
     </div>
   </header>
 
+  <main>
   <!-- Sección principal -->
   <section id="inicio" class="hero">
-    <div class="container hero-content">
-      <h1>Soporte TI y ciberseguridad para entornos digitales</h1>
-      <p>
-        Ayudamos a profesionales, emprendimientos y empresas a resolver
-        fallas técnicas, mejorar configuraciones y revisar riesgos de seguridad.
-        Escríbenos por WhatsApp para revisar tu caso y definir el alcance inicial.
-      </p>
+    <div class="container hero-layout">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Soporte TI, soluciones web y ciberseguridad autorizada</p>
+        <h1>Soporte TI y ciberseguridad para entornos digitales</h1>
+        <p>
+          Ayudamos a profesionales, emprendimientos y empresas a resolver
+          fallas técnicas, mejorar configuraciones y revisar riesgos de seguridad.
+          Escríbenos por WhatsApp para revisar tu caso y definir el alcance inicial.
+        </p>
 
-      <div class="hero-buttons">
-        <a
-          href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20TecnoWebSupport."
-          class="btn btn-primary"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Solicitar asesoría a TecnoWebSupport por WhatsApp"
-        >
-          Solicitar asesoría
-        </a>
-        <a href="#servicios" class="btn btn-secondary">Ver servicios</a>
+        <div class="hero-buttons">
+          <a
+            href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20TecnoWebSupport."
+            class="btn btn-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Solicitar asesoría a TecnoWebSupport por WhatsApp"
+          >
+            Solicitar asesoría
+          </a>
+          <a href="#servicios" class="btn btn-secondary">Ver servicios</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="tech-panel">
+          <div class="panel-topline"><span></span><span></span><span></span></div>
+          <div class="panel-status"><span class="status-dot"></span>Diagnóstico técnico activo</div>
+          <div class="panel-grid">
+            <span>Soporte TI</span>
+            <strong>Configuración</strong>
+            <span>Seguridad</span>
+            <strong>Informe técnico</strong>
+          </div>
+          <div class="signal-stack"><span></span><span></span><span></span></div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Franja de confianza -->
-   <section class="trust-bar">
+  <section class="trust-bar" aria-label="Principios de atención de TecnoWebSupport">
     <div class="container trust-items">
-      <div class="trust-item"><span aria-hidden="true">✔️</span> Atención técnica orientada al contexto</div>
-      <div class="trust-item"><span aria-hidden="true">✔️</span> Seguridad con autorización y alcance definido</div>
-      <div class="trust-item"><span aria-hidden="true">✔️</span> Recomendaciones claras y priorizadas</div>
+      <div class="trust-item"><span class="trust-icon" aria-hidden="true">01</span> Atención técnica orientada al contexto</div>
+      <div class="trust-item"><span class="trust-icon" aria-hidden="true">02</span> Seguridad con autorización y alcance definido</div>
+      <div class="trust-item"><span class="trust-icon" aria-hidden="true">03</span> Recomendaciones claras y priorizadas</div>
     </div>
   </section>
 
@@ -256,20 +287,29 @@
   </section>  
 
   <!-- Sobre nosotros -->
-  <section id="nosotros" class="section">
-    <div class="container">
-      <h2>Sobre TecnoWebSupport</h2>
-      <p>
-        TecnoWebSupport brinda acompañamiento en soporte tecnológico, mantenimiento
-        informático, configuración de servicios digitales y fortalecimiento de la
-        seguridad de la información.
-      </p>
-      <p>
-        El enfoque combina atención técnica, análisis del contexto y buenas
-        prácticas de seguridad para proponer acciones útiles, priorizadas y
-        adaptadas al contexto, reconociendo que la continuidad y la seguridad
-        requieren seguimiento permanente.
-      </p>
+  <section id="nosotros" class="section corporate-block">
+    <div class="container corporate-layout">
+      <div class="corporate-copy">
+        <p class="section-kicker">Enfoque corporativo</p>
+        <h2>Sobre TecnoWebSupport</h2>
+        <p>
+          TecnoWebSupport brinda acompañamiento en soporte tecnológico, mantenimiento
+          informático, configuración de servicios digitales y fortalecimiento de la
+          seguridad de la información.
+        </p>
+        <p>
+          El enfoque combina atención técnica, análisis del contexto y buenas
+          prácticas de seguridad para proponer acciones útiles, priorizadas y
+          adaptadas al contexto, reconociendo que la continuidad y la seguridad
+          requieren seguimiento permanente.
+        </p>
+      </div>
+      <div class="corporate-visual" aria-hidden="true">
+        <div class="scope-card scope-card-primary">Alcance definido</div>
+        <div class="scope-card">Acompañamiento técnico</div>
+        <div class="scope-card">Seguridad autorizada</div>
+        <div class="scope-card">Recomendaciones contextualizadas</div>
+      </div>
     </div>
   </section>
 
@@ -659,8 +699,41 @@
     </div>
   </section>
   
+  <!-- Llamado a la acción final -->
+  <section class="cta-final">
+    <div class="container cta-layout">
+      <div>
+        <p class="section-kicker">Siguiente paso</p>
+        <h2>¿Necesitas apoyo en soporte TI o ciberseguridad?</h2>
+        <p>
+          Contáctanos y recibe orientación inicial para revisar tu caso y definir el alcance adecuado.
+        </p>
+      </div>
+      <div class="cta-actions">
+        <a
+          href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20TecnoWebSupport."
+          class="btn btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Solicitar diagnóstico a TecnoWebSupport por WhatsApp"
+        >
+          Solicitar diagnóstico
+        </a>
+        <a
+          href="mailto:tecnowebsupport@gmail.com"
+          class="btn btn-outline"
+          aria-label="Enviar correo a TecnoWebSupport"
+        >
+          Enviar correo
+        </a>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
   <!-- Botón flotante de WhatsApp -->
-    <a
+  <a
     href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20TecnoWebSupport."
     class="whatsapp-float"
     target="_blank"
@@ -669,33 +742,43 @@
   >
     <span aria-hidden="true">💬</span> Contáctanos
   </a>
-  
-  <!-- Llamado a la acción final -->
-   <section class="cta-final">
-    <div class="container">
-      <h2>¿Necesitas apoyo en soporte TI o ciberseguridad?</h2>
-      <p>
-        Contáctanos y recibe orientación inicial para revisar tu caso y definir el alcance adecuado.
-      </p>
-      <a
-        href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20TecnoWebSupport."
-        class="btn btn-primary"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Solicitar diagnóstico a TecnoWebSupport por WhatsApp"
-      >
-        Solicitar diagnóstico
-      </a>
-    </div>
-  </section>
-
-  <script src="script.js" defer></script>
 
   <!-- Pie de página -->
   <footer class="footer">
-    <div class="container">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="logo-main">TecnoWebSupport</span>
+        <p>Soporte TI, mantenimiento tecnológico, soluciones web y ciberseguridad con alcance definido.</p>
+      </div>
+      <div class="footer-column">
+        <h2>Navegación</h2>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#faq">Preguntas frecuentes</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer-column">
+        <h2>Servicios principales</h2>
+        <span>Soporte TI</span>
+        <span>Mantenimiento preventivo</span>
+        <span>Soluciones web</span>
+        <span>Ciberseguridad</span>
+        <span>Informes técnicos</span>
+      </div>
+      <div class="footer-column footer-contact">
+        <h2>Contacto</h2>
+        <a href="mailto:tecnowebsupport@gmail.com" aria-label="Enviar correo a TecnoWebSupport">tecnowebsupport@gmail.com</a>
+        <a href="tel:+573158793376" aria-label="Llamar a TecnoWebSupport">+57 315 879 3376</a>
+        <a href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20TecnoWebSupport." target="_blank" rel="noopener noreferrer" aria-label="Contactar a TecnoWebSupport por WhatsApp">WhatsApp</a>
+        <p>Las evaluaciones de seguridad se realizan únicamente con autorización y alcance acordado.</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
       <p>TecnoWebSupport © 2026 | Soporte TI | Tecnología | Ciberseguridad | Ethical Hacking</p>
     </div>
   </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
