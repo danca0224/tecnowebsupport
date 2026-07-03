@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='980' height='680' viewBox='0 0 980 680' role='img' aria-label='Ilustración de equipos y soporte técnico'>
+  <defs><linearGradient id='g' x1='0' x2='1' y1='0' y2='1'><stop stop-color='#dff6ff'/><stop offset='1' stop-color='#e0ecff'/></linearGradient></defs>
+  <rect width='980' height='680' rx='42' fill='url(#g)'/><circle cx='790' cy='132' r='92' fill='#38bdf8' opacity='.24'/><circle cx='148' cy='552' r='118' fill='#2563eb' opacity='.12'/>
+  <rect x='126' y='142' width='430' height='286' rx='24' fill='#0f172a'/><rect x='154' y='174' width='374' height='214' rx='14' fill='#f8fbff'/><path d='M206 238h122M206 286h238M206 334h190' stroke='#2563eb' stroke-width='18' stroke-linecap='round'/>
+  <rect x='274' y='428' width='136' height='42' rx='16' fill='#1e3a8a'/><rect x='216' y='470' width='252' height='34' rx='17' fill='#38bdf8'/>
+  <path d='M672 238l40 40 82-96' fill='none' stroke='#25d366' stroke-width='30' stroke-linecap='round' stroke-linejoin='round'/><rect x='612' y='360' width='216' height='96' rx='28' fill='#ffffff' opacity='.9'/><path d='M650 408h140M650 438h92' stroke='#64748b' stroke-width='14' stroke-linecap='round'/>
+</svg>

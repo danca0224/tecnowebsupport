@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='980' height='680' viewBox='0 0 980 680' role='img' aria-label='Ilustración de dominio correo y sitio web'>
+  <defs><linearGradient id='g' x1='0' x2='1' y1='0' y2='1'><stop stop-color='#f8fbff'/><stop offset='1' stop-color='#dff6ff'/></linearGradient></defs>
+  <rect width='980' height='680' rx='42' fill='url(#g)'/><path d='M120 196c110-110 236 72 346-22 120-102 210-52 298 36' fill='none' stroke='#38bdf8' stroke-width='18' opacity='.35'/>
+  <rect x='118' y='148' width='516' height='348' rx='28' fill='#ffffff'/><rect x='118' y='148' width='516' height='76' rx='28' fill='#0f172a'/><circle cx='164' cy='186' r='12' fill='#38bdf8'/><circle cx='204' cy='186' r='12' fill='#25d366'/><circle cx='244' cy='186' r='12' fill='#dbeafe'/>
+  <rect x='164' y='266' width='196' height='36' rx='18' fill='#2563eb'/><rect x='164' y='330' width='384' height='20' rx='10' fill='#bfdbfe'/><rect x='164' y='374' width='310' height='20' rx='10' fill='#dbeafe'/>
+  <rect x='666' y='238' width='198' height='142' rx='28' fill='#1e3a8a'/><path d='M696 280l68 48 70-48' fill='none' stroke='#dff6ff' stroke-width='16' stroke-linecap='round' stroke-linejoin='round'/><rect x='690' y='422' width='148' height='54' rx='27' fill='#38bdf8'/>
+</svg>

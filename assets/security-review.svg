@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760" role="img" aria-label="Ilustración de evaluación de seguridad autorizada">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08111f"/><stop offset="1" stop-color="#1e3a8a"/></linearGradient><linearGradient id="c" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#25d366"/></linearGradient></defs>
+  <rect width="1100" height="760" rx="48" fill="url(#bg)"/><g stroke="#e2e8f0" opacity=".18"><path d="M120 160h860M120 300h860M120 440h860M120 580h860"/><path d="M220 100v560M410 100v560M600 100v560M790 100v560"/></g>
+  <path d="M550 140l250 92v160c0 148-100 244-250 306-150-62-250-158-250-306V232z" fill="#f8fbff" opacity=".94"/><path d="M550 210l168 62v114c0 96-64 164-168 212-104-48-168-116-168-212V272z" fill="url(#c)" opacity=".95"/><path d="M495 390l42 42 96-122" fill="none" stroke="#fff" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/><circle cx="224" cy="212" r="20" fill="#38bdf8"/><circle cx="856" cy="558" r="24" fill="#25d366"/><circle cx="826" cy="200" r="12" fill="#38bdf8"/>
+</svg>
