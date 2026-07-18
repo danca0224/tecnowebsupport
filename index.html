@@ -16,15 +16,22 @@
     <meta property="og:description" content="Soporte TI, soluciones web, informes técnicos y ciberseguridad autorizada con alcance definido." />
     <meta property="og:url" content="https://tecnowebsupport.com/" />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://tecnowebsupport.com/assets/social/tws-social-ad.webp" />
+    <meta property="og:image:width" content="1254" />
+    <meta property="og:image:height" content="1254" />
+    <meta property="og:image:alt" content="Publicidad de TecnoWebSupport sobre soporte TI, ciberseguridad, soluciones web e informes técnicos." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://tecnowebsupport.com/assets/social/tws-social-ad.webp" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/tws-mark-32.png" />
+    <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png" />
   </head>
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
     <header class="site-header">
       <div class="wide-container header-layout">
         <a class="brand" href="#inicio" aria-label="Ir al inicio de TecnoWebSupport">
-          <span class="brand-mark" aria-hidden="true">TW</span>
+          <img class="brand-logo" src="assets/brand/tws-logo-header.webp" alt="" width="280" height="96" decoding="async" />
           <span class="brand-text">
             <span class="brand-name">TecnoWebSupport</span>
             <span class="brand-line">Soporte TI & Ciberseguridad</span>
@@ -71,14 +78,18 @@
               <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
             </div>
           </div>
-          <figure class="hero-media" aria-hidden="true">
-            <img
-              src="assets/hero-operations.svg"
-              alt=""
-              width="1400"
-              height="980"
-              fetchpriority="high"
-            />
+          <figure class="hero-media hero-tech-visual" aria-hidden="true">
+            <div class="hero-orbit">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="hero-device">
+              <img src="assets/brand/tws-logo-transparent.webp" alt="" width="1195" height="765" fetchpriority="high" decoding="async" />
+              <div class="hero-signal hero-signal-one"></div>
+              <div class="hero-signal hero-signal-two"></div>
+              <div class="hero-signal hero-signal-three"></div>
+            </div>
           </figure>
         </div>
       </section>
@@ -107,7 +118,14 @@
           <div class="service-showcase">
             <article class="service-area service-area-support">
               <figure class="service-media" aria-hidden="true">
-                <img src="assets/support-continuity.svg" alt="" width="1100" height="760" loading="lazy" />
+                <picture>
+                  <source
+                    srcset="assets/media/services/support-640.webp 640w, assets/media/services/support-960.webp 960w, assets/media/services/support-1440.webp 1440w"
+                    sizes="(max-width: 760px) 92vw, (max-width: 1180px) 44vw, 640px"
+                    type="image/webp"
+                  />
+                  <img src="assets/media/services/support-960.webp" alt="" width="960" height="720" loading="lazy" decoding="async" />
+                </picture>
               </figure>
               <div class="service-content">
                 <span class="service-number">A</span>
@@ -135,7 +153,14 @@
             </article>
             <article class="service-area service-area-security">
               <figure class="service-media" aria-hidden="true">
-                <img src="assets/security-review.svg" alt="" width="1100" height="760" loading="lazy" />
+                <picture>
+                  <source
+                    srcset="assets/media/services/security-640.webp 640w, assets/media/services/security-960.webp 960w, assets/media/services/security-1440.webp 1440w"
+                    sizes="(max-width: 760px) 92vw, (max-width: 1180px) 44vw, 640px"
+                    type="image/webp"
+                  />
+                  <img src="assets/media/services/security-960.webp" alt="" width="960" height="720" loading="lazy" decoding="async" />
+                </picture>
               </figure>
               <div class="service-content">
                 <span class="service-number">B</span>
@@ -163,28 +188,69 @@
             </article>
             <article class="service-area service-area-web">
               <figure class="service-media" aria-hidden="true">
-                <img src="assets/web-documentation.svg" alt="" width="1100" height="760" loading="lazy" />
+                <picture>
+                  <source
+                    srcset="assets/media/services/web-640.webp 640w, assets/media/services/web-960.webp 960w, assets/media/services/web-1440.webp 1440w"
+                    sizes="(max-width: 760px) 92vw, (max-width: 1180px) 44vw, 640px"
+                    type="image/webp"
+                  />
+                  <img src="assets/media/services/web-960.webp" alt="" width="960" height="720" loading="lazy" decoding="async" />
+                </picture>
               </figure>
               <div class="service-content">
                 <span class="service-number">C</span>
-                <h3>Soluciones web e informes técnicos</h3>
+                <h3>Soluciones web</h3>
                 <p>
-                  Acompañamiento en dominios, correos, hosting, sitios web básicos y documentación técnica para tomar mejores decisiones.
+                  Acompañamiento en configuración de dominios, correos, servicios de hosting y sitios web básicos.
                 </p>
                 <ul>
                   <li>Configuración de dominios y correo.</li>
                   <li>Ajustes en sitios web básicos.</li>
-                  <li>Documentación de hallazgos.</li>
-                  <li>Informes según alcance.</li>
+                  <li>Ajustes en sitios web básicos.</li>
+                  <li>Orientación sobre publicación y proveedores.</li>
                 </ul>
                 <a class='text-link' href='/servicios/soluciones-web/'>Ver soluciones web</a>
-                <a class='text-link' href='/servicios/informes-tecnicos/'>Ver informes técnicos</a>
                 <a
-                  href="https://wa.me/573158793376?text=Hola%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20soluciones%20web%20e%20informes%20t%C3%A9cnicos%20de%20TecnoWebSupport."
+                  href="https://wa.me/573158793376?text=Hola%2C%20quiero%20consultar%20soluciones%20web%20con%20TecnoWebSupport."
                   class="text-link"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Solicitar información sobre soluciones web e informes técnicos a TecnoWebSupport por WhatsApp"
+                  aria-label="Solicitar información sobre soluciones web a TecnoWebSupport por WhatsApp"
+                >
+                  Solicitar información
+                </a>
+              </div>
+            </article>
+            <article class="service-area service-area-report">
+              <figure class="service-media" aria-hidden="true">
+                <picture>
+                  <source
+                    srcset="assets/media/services/report-640.webp 640w, assets/media/services/report-960.webp 960w, assets/media/services/report-1440.webp 1440w"
+                    sizes="(max-width: 760px) 92vw, (max-width: 1180px) 44vw, 640px"
+                    type="image/webp"
+                  />
+                  <img src="assets/media/services/report-960.webp" alt="" width="960" height="720" loading="lazy" decoding="async" />
+                </picture>
+              </figure>
+              <div class="service-content">
+                <span class="service-number">D</span>
+                <h3>Informes técnicos</h3>
+                <p>
+                  Documentación técnica con evidencias, hallazgos y recomendaciones priorizadas según el servicio contratado.
+                </p>
+                <ul>
+                  <li>Registro de contexto y alcance.</li>
+                  <li>Evidencias técnicas cuando aplique.</li>
+                  <li>Recomendaciones priorizadas.</li>
+                  <li>Informe según el servicio contratado.</li>
+                </ul>
+                <a class='text-link' href='/servicios/informes-tecnicos/'>Ver informes técnicos</a>
+                <a
+                  href="https://wa.me/573158793376?text=Hola%2C%20quiero%20consultar%20un%20informe%20t%C3%A9cnico%20con%20TecnoWebSupport."
+                  class="text-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Solicitar información sobre informes técnicos a TecnoWebSupport por WhatsApp"
                 >
                   Solicitar información
                 </a>
@@ -387,7 +453,14 @@
               </ul>
             </div>
             <figure class="feature-media" aria-hidden="true">
-              <img src="assets/support-continuity.svg" alt="" width="1100" height="760" loading="lazy" />
+                              <picture>
+                  <source
+                    srcset="assets/media/services/support-640.webp 640w, assets/media/services/support-960.webp 960w, assets/media/services/support-1440.webp 1440w"
+                    sizes="(max-width: 760px) 92vw, (max-width: 1180px) 44vw, 640px"
+                    type="image/webp"
+                  />
+                  <img src="assets/media/services/support-960.webp" alt="" width="960" height="720" loading="lazy" decoding="async" />
+                </picture>
             </figure>
           </article>
           <article class="feature-row feature-row-reverse">
@@ -404,7 +477,14 @@
               </ul>
             </div>
             <figure class="feature-media" aria-hidden="true">
-              <img src="assets/security-review.svg" alt="" width="1100" height="760" loading="lazy" />
+                              <picture>
+                  <source
+                    srcset="assets/media/services/security-640.webp 640w, assets/media/services/security-960.webp 960w, assets/media/services/security-1440.webp 1440w"
+                    sizes="(max-width: 760px) 92vw, (max-width: 1180px) 44vw, 640px"
+                    type="image/webp"
+                  />
+                  <img src="assets/media/services/security-960.webp" alt="" width="960" height="720" loading="lazy" decoding="async" />
+                </picture>
             </figure>
           </article>
           <article class="feature-row">
@@ -421,7 +501,14 @@
               </ul>
             </div>
             <figure class="feature-media" aria-hidden="true">
-              <img src="assets/web-documentation.svg" alt="" width="1100" height="760" loading="lazy" />
+                              <picture>
+                  <source
+                    srcset="assets/media/services/web-640.webp 640w, assets/media/services/web-960.webp 960w, assets/media/services/web-1440.webp 1440w"
+                    sizes="(max-width: 760px) 92vw, (max-width: 1180px) 44vw, 640px"
+                    type="image/webp"
+                  />
+                  <img src="assets/media/services/web-960.webp" alt="" width="960" height="720" loading="lazy" decoding="async" />
+                </picture>
             </figure>
           </article>
         </div>
@@ -574,6 +661,7 @@
     <footer class="site-footer full-bleed">
       <div class="wide-container footer-grid">
         <div class="footer-brand">
+          <img class="footer-logo" src="assets/brand/tws-logo-footer.webp" alt="" width="360" height="132" loading="lazy" decoding="async" />
           <span class="brand-name">TecnoWebSupport</span>
           <p>Soporte TI, mantenimiento tecnológico, soluciones web, informes técnicos y ciberseguridad con alcance definido.</p>
         </div>

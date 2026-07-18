@@ -13,14 +13,21 @@
     <meta property='og:description' content='Diagnóstico inicial de seguridad, revisión de configuraciones y evaluaciones controladas con autorización previa.' />
     <meta property='og:url' content='https://tecnowebsupport.com/servicios/ciberseguridad/' />
     <meta property='og:type' content='website' />
+    <meta property='og:image' content='https://tecnowebsupport.com/assets/social/tws-social-ad.webp' />
+    <meta property='og:image:width' content='1254' />
+    <meta property='og:image:height' content='1254' />
+    <meta property='og:image:alt' content='Publicidad de TecnoWebSupport sobre soporte TI, ciberseguridad, soluciones web e informes técnicos.' />
+    <meta name='twitter:card' content='summary_large_image' />
+    <meta name='twitter:image' content='https://tecnowebsupport.com/assets/social/tws-social-ad.webp' />
     <link rel='stylesheet' href='/styles.css' />
-    <link rel='icon' type='image/svg+xml' href='/assets/favicon.svg' />
+    <link rel='icon' type='image/png' sizes='32x32' href='/assets/brand/tws-mark-32.png' />
+    <link rel='apple-touch-icon' href='/assets/brand/apple-touch-icon.png' />
   </head>
   <body>
     <header class='site-header'>
       <div class='wide-container header-layout'>
         <a class='brand' href='/' aria-label='Ir al inicio de TecnoWebSupport'>
-          <span class='brand-mark' aria-hidden='true'>TW</span>
+          <img class='brand-logo' src='/assets/brand/tws-logo-header.webp' alt='' width='280' height='96' decoding='async' />
           <span class='brand-text'>
             <span class='brand-name'>TecnoWebSupport</span>
             <span class='brand-line'>Soporte TI & Ciberseguridad</span>
@@ -49,7 +56,14 @@
             </div>
           </div>
           <figure class='inner-hero-media' aria-hidden='true'>
-            <img src='/assets/service-security-detail.svg' alt='' width='980' height='680' loading='eager' />
+                        <picture>
+              <source
+                srcset='/assets/media/services/security-640.webp 640w, /assets/media/services/security-960.webp 960w, /assets/media/services/security-1440.webp 1440w'
+                sizes='(max-width: 760px) 92vw, (max-width: 1180px) 44vw, 620px'
+                type='image/webp'
+              />
+              <img src='/assets/media/services/security-960.webp' alt='' width='960' height='720' loading='eager' fetchpriority='high' decoding='async' />
+            </picture>
           </figure>
         </div>
       </section>
@@ -147,6 +161,7 @@
     <footer class='site-footer full-bleed'>
       <div class='wide-container footer-grid'>
         <div class='footer-brand'>
+          <img class='footer-logo' src='/assets/brand/tws-logo-footer.webp' alt='' width='360' height='132' loading='lazy' decoding='async' />
           <span class='brand-name'>TecnoWebSupport</span>
           <p>Soporte TI, mantenimiento tecnológico, soluciones web, informes técnicos y ciberseguridad con alcance definido.</p>
         </div>
