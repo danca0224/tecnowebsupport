@@ -1762,26 +1762,48 @@ details p {
 }
 
 @media (max-width: 768px) {
+  .home-page .site-header {
+    isolation: isolate;
+    overflow: visible;
+    position: relative;
+    z-index: 2000;
+  }
+
   .home-page .header-layout {
+    box-sizing: border-box;
     gap: 10px;
     grid-template-columns: minmax(0, 1fr) auto;
     justify-items: stretch;
+    max-width: 100%;
     min-height: 80px;
+    overflow: visible;
     padding: 8px 20px;
     position: relative;
+    width: 100%;
   }
 
   .home-page .brand {
     gap: 8px;
+    max-width: 100%;
+    min-width: 0;
     overflow: hidden;
+    width: 100%;
   }
 
   .home-page .brand-logo {
     width: 56px;
   }
 
+  .home-page .brand-text {
+    min-width: 0;
+    overflow: hidden;
+  }
+
   .home-page .brand-name {
+    display: block;
     font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
     white-space: nowrap;
   }
 
@@ -1798,7 +1820,10 @@ details p {
   .home-page .mobile-nav {
     align-self: center;
     display: block;
-    position: relative;
+    max-width: 100%;
+    min-width: 0;
+    overflow: visible;
+    position: static;
   }
 
   .home-page .mobile-nav summary {
@@ -1815,8 +1840,9 @@ details p {
     justify-content: center;
     list-style: none;
     min-height: 44px;
-    min-width: 72px;
     padding: 8px 10px;
+    white-space: nowrap;
+    width: auto;
   }
 
   .home-page .mobile-nav summary::-webkit-details-marker {
@@ -1847,16 +1873,24 @@ details p {
     box-shadow: 0 24px 60px rgba(2, 6, 23, 0.42);
     display: none;
     gap: 3px;
+    left: 16px;
+    max-width: none;
+    opacity: 0;
     padding: 10px;
+    pointer-events: none;
     position: absolute;
-    right: 0;
-    top: calc(100% + 10px);
-    width: min(320px, calc(100vw - 32px));
-    z-index: 1200;
+    right: 16px;
+    top: calc(100% + 8px);
+    visibility: hidden;
+    width: auto;
+    z-index: 2100;
   }
 
   .home-page .mobile-nav[open] .mobile-nav-panel {
     display: grid;
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
   }
 
   .home-page .mobile-nav-panel a {
@@ -1885,6 +1919,7 @@ details p {
   .home-page .hero-section {
     min-height: auto;
     padding: 48px 0 40px;
+    z-index: 0;
   }
 
   .home-page .hero-grid {
@@ -1999,11 +2034,13 @@ details p {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 520px) {
   .home-page .brand-line {
     display: none;
   }
+}
 
+@media (max-width: 390px) {
   .home-page .brand-logo {
     width: 52px;
   }
